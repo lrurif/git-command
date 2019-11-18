@@ -1,42 +1,46 @@
-git branch -a 	²é¿´µ±Ç°ÏîÄ¿git·ÖÖ§
-git checkout hzgaoxin 	ÇĞ»»µ½Ä³¸ö·ÖÖ§
-//Ìá½»¹ı³Ì
-git pull origin hzgaoxin 	À­È¡Ô¶¶Ëhzgaoxin·ÖÖ§´úÂëµ½±¾µØ
-git add .  	±¾µØ´úÂëÌá½»µ½»º´æ¿â
-git commit -m 	'Ìá½»×¢ÊÍ'
-git push origin hzgaoxin  	Ìá½»¶¯×÷ °Ñ±¾µØ·ÖÖ§¸ü¸ÄÌá½»µ½Ô¶³Ìhzgaoxin·ÖÖ§
-git push -u origin master 	µÚÒ»´ÎÌá½»µ½Ô¶³Ì¿â£¬Ö®ºóÖ»ĞèÖ´ĞĞgit push
-git rm 	É¾³ıÎÄ¼ş
-git checkout -- ceshi.txt 	½«¹¤×÷È¥µÄÎÄ¼şÌæ»»³ÉÔİ´æÇøµÄÎÄ¼ş
-git add * 	»áºöÂÔ.ignoreÎÄ¼şÀïÃæµÄÄÚÈİ
-git checkout -b dev	´´½¨Ò»¸ödev·ÖÖ§£¬²¢Ö¸Ïòdev·ÖÖ§
-git branch 	²é¿´·ÖÖ§
-git log 	Ä£Ê½ÏÂ°´qÍË³ö
-git stash 	Ôİ´æµ±Ç°·ÖÖ§ÏÂµÄ½ø³Ì
-git stash list 	²é¿´Ôİ´æµÄÄÚÈİ
-git stash apply 	»Ö¸´ÄÚÈİ£¬µ«ÊÇgit stash listÀïÃæÄÚÈİ²»É¾³ı
-git stash drop	É¾³ılistÀïÃæÄÚÈİ
-git stash pop	Ö´ĞĞÉÏÃæÁ½²½
-git stash apply stash@{0}	»Ö¸´Ä³¸östash
-git cherry-pick <commit>	¸´ÖÆÄ³¸öÌØ¶¨µÄÌá½»µ½µ±Ç°·ÖÖ§ÉÏ
-git branch -d ·ÖÖ§Ãû³Æ		É¾³ı±¾µØ·ÖÖ§
-git branch -d ·ÖÖ§Ãû³Æ		¡°Ç¿ÖÆ¡±É¾³ı±¾µØ·ÖÖ§
-git push origin --delete ·ÖÖ§Ãû³Æ	É¾³ıÔ¶³Ì·ÖÖ§
-À­È¡Ô¶¶Ë²Ö¿â´úÂëºóĞèÒªÔÚ±¾µØ½¨Ò»¸ö·ÖÖ§£¬×îºÃÃû³ÆÒ»Ñù
-git branch --set-upstream branch-name origin/branch-name	½¨Á¢±¾µØ·ÖÖ§ºÍÔ¶³Ì·ÖÖ§µÄ¹ØÁª
-git tag <>´´½¨Ò»¸ö±êÇ©
-git tag ²é¿´ËùÓĞ±êÇ©
-git log --pretty=oneline --abbrev-commit ²é¿´logÀúÊ·
-git tag v0.9 f52c633	ÎªÕâ´ÎÌá½»Ôö¼ÓÒ»¸ö±êÇ©
-git show <tagname>	²é¿´±êÇ©ĞÅÏ¢
-git tag -a v0.1 -m "version 0.1 released" 1094adb ´´½¨Ò»¸ö´øÓĞÎÄ×ÖËµÃ÷µÄ±êÇ©
-git tag -d <tag> É¾³ıÒ»¸ö±êÇ©
-git push origin <tag>	½«±êÇ©ÍÆËÍµ½Ô¶³Ì¿â
-git push origin --tags	½«ËùÓĞ±êÇ©ÍÆËÍµ½Ô¶³Ì¿â
-git push origin :refs/tags/<tags> ´ÓÔ¶³Ì¿âÉ¾³ı±êÇ©
-git remote rm origin É¾³ıÔ¶³Ì¿â
-git remote add origin <Ô¶³Ì¿âµØÖ·>	¹ØÁªÒ»¸öÔ¶³Ì¿â
-git remote -v ²é¿´Ô¶³Ì¿âĞÅÏ¢
-git add -f <ÎÄ¼şÃû> Ç¿ÖÆÌí¼ÓÎÄ¼şµ½¼à¿ØÎÄ¼şÄÚ
-git config --global alias.st status ÒÔstÃüÁî´úÌæstatusÃüÁî
-git reset HEAD file °ÑÒÑ¾­·ÅÈëÔİ´æÇøµÄĞŞ¸Ä³·Ïúµô
+git branch -a 	æŸ¥çœ‹å½“å‰é¡¹ç›®gitåˆ†æ”¯
+git checkout hzgaoxin 	åˆ‡æ¢åˆ°æŸä¸ªåˆ†æ”¯
+//æäº¤è¿‡ç¨‹
+git pull origin hzgaoxin 	æ‹‰å–è¿œç«¯hzgaoxinåˆ†æ”¯ä»£ç åˆ°æœ¬åœ°
+git add .  	æœ¬åœ°ä»£ç æäº¤åˆ°ç¼“å­˜åº“
+git commit -m 	'æäº¤æ³¨é‡Š'
+git push origin hzgaoxin  	æäº¤åŠ¨ä½œ æŠŠæœ¬åœ°åˆ†æ”¯æ›´æ”¹æäº¤åˆ°è¿œç¨‹hzgaoxinåˆ†æ”¯
+
+
+
+git init	åˆå§‹åŒ–gitæ–‡ä»¶ï¼Œç”Ÿæˆä¸€ä¸ªæ–‡ä»¶å¤¹.git  é…ç½®
+git push -u origin master 	ç¬¬ä¸€æ¬¡æäº¤åˆ°è¿œç¨‹åº“ï¼Œä¹‹ååªéœ€æ‰§è¡Œgit push
+git rm 	åˆ é™¤æ–‡ä»¶
+git checkout -- ceshi.txt 	å°†å·¥ä½œå»çš„æ–‡ä»¶æ›¿æ¢æˆæš‚å­˜åŒºçš„æ–‡ä»¶
+git add * 	ä¼šå¿½ç•¥.ignoreæ–‡ä»¶é‡Œé¢çš„å†…å®¹
+git checkout -b dev	åˆ›å»ºä¸€ä¸ªdevåˆ†æ”¯ï¼Œå¹¶æŒ‡å‘devåˆ†æ”¯
+git branch 	æŸ¥çœ‹åˆ†æ”¯
+git log 	æ¨¡å¼ä¸‹æŒ‰qé€€å‡º
+git stash 	æš‚å­˜å½“å‰åˆ†æ”¯ä¸‹çš„è¿›ç¨‹
+git stash list 	æŸ¥çœ‹æš‚å­˜çš„å†…å®¹
+git stash apply 	æ¢å¤å†…å®¹ï¼Œä½†æ˜¯git stash listé‡Œé¢å†…å®¹ä¸åˆ é™¤
+git stash drop	åˆ é™¤listé‡Œé¢å†…å®¹
+git stash pop	æ‰§è¡Œä¸Šé¢ä¸¤æ­¥
+git stash apply stash@{0}	æ¢å¤æŸä¸ªstash
+git cherry-pick <commit>	å¤åˆ¶æŸä¸ªç‰¹å®šçš„æäº¤åˆ°å½“å‰åˆ†æ”¯ä¸Š
+git branch -d åˆ†æ”¯åç§°		åˆ é™¤æœ¬åœ°åˆ†æ”¯
+git branch -d åˆ†æ”¯åç§°		â€œå¼ºåˆ¶â€åˆ é™¤æœ¬åœ°åˆ†æ”¯
+git push origin --delete åˆ†æ”¯åç§°	åˆ é™¤è¿œç¨‹åˆ†æ”¯
+æ‹‰å–è¿œç«¯ä»“åº“ä»£ç åéœ€è¦åœ¨æœ¬åœ°å»ºä¸€ä¸ªåˆ†æ”¯ï¼Œæœ€å¥½åç§°ä¸€æ ·
+git branch --set-upstream branch-name origin/branch-name	å»ºç«‹æœ¬åœ°åˆ†æ”¯å’Œè¿œç¨‹åˆ†æ”¯çš„å…³è”
+git tag <>åˆ›å»ºä¸€ä¸ªæ ‡ç­¾
+git tag æŸ¥çœ‹æ‰€æœ‰æ ‡ç­¾
+git log --pretty=oneline --abbrev-commit æŸ¥çœ‹logå†å²
+git tag v0.9 f52c633	ä¸ºè¿™æ¬¡æäº¤å¢åŠ ä¸€ä¸ªæ ‡ç­¾
+git show <tagname>	æŸ¥çœ‹æ ‡ç­¾ä¿¡æ¯
+git tag -a v0.1 -m "version 0.1 released" 1094adb åˆ›å»ºä¸€ä¸ªå¸¦æœ‰æ–‡å­—è¯´æ˜çš„æ ‡ç­¾
+git tag -d <tag> åˆ é™¤ä¸€ä¸ªæ ‡ç­¾
+git push origin <tag>	å°†æ ‡ç­¾æ¨é€åˆ°è¿œç¨‹åº“
+git push origin --tags	å°†æ‰€æœ‰æ ‡ç­¾æ¨é€åˆ°è¿œç¨‹åº“
+git push origin :refs/tags/<tags> ä»è¿œç¨‹åº“åˆ é™¤æ ‡ç­¾
+git remote rm origin åˆ é™¤è¿œç¨‹åº“
+git remote add origin <è¿œç¨‹åº“åœ°å€>	å…³è”ä¸€ä¸ªè¿œç¨‹åº“
+git remote -v æŸ¥çœ‹è¿œç¨‹åº“ä¿¡æ¯
+git add -f <æ–‡ä»¶å> å¼ºåˆ¶æ·»åŠ æ–‡ä»¶åˆ°ç›‘æ§æ–‡ä»¶å†…
+git config --global alias.st status ä»¥stå‘½ä»¤ä»£æ›¿statuså‘½ä»¤
+git reset HEAD file æŠŠå·²ç»æ”¾å…¥æš‚å­˜åŒºçš„ä¿®æ”¹æ’¤é”€æ‰
