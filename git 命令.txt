@@ -52,3 +52,4 @@ git config --global alias.st status 以st命令代替status命令
 git reset HEAD file 把已经放入暂存区的修改撤销掉
 修改内容
 测试修改内容
+我是1.1的内容
