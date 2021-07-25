@@ -68,3 +68,4 @@ git remote -v 查看远程库信息
 git add -f <文件名> 强制添加文件到监控文件内
 git config --global alias.st status 以st命令代替status命令
 git reset HEAD file 把已经放入暂存区的修改撤销掉
+测试内容
