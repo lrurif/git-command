@@ -66,6 +66,11 @@ git remote rm origin 删除远程库
 git remote add origin <远程库地址>	关联一个远程库
 git remote -v 查看远程库信息
 git add -f <文件名> 强制添加文件到监控文件内
-git config --global alias.st status 以st命令代替status命令  jfalsdflajskfdkl
+git config --global alias.st status 以st命令代替status命令
 git reset HEAD file 把已经放入暂存区的修改撤销掉
-测试内容
+
+单独去除某个已经push的commit步骤：
+1、git log查看日志，并获取那个commiit之前的提交hash值
+2、git rebase -I [hash值]
+3、修改需要去除的commit记录最前面的pick 为 drop
+4、保存，然后需要进行强推操作
