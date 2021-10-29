@@ -64,7 +64,7 @@ git push origin --tags	将所有标签推送到远程库
 git push origin :refs/tags/<tags> 从远程库删除标签
 git remote rm origin 删除远程库
 git remote add origin <远程库地址>	关联一个远程库
-git remote -v 查看远程库信息
+git remote -v 查看远程库信息(master修改)
 git add -f <文件名> 强制添加文件到监控文件内
 git config --global alias.st status 以st命令代替status命令
 git reset HEAD file 把已经放入暂存区的修改撤销掉
