@@ -1,10 +1,3 @@
-git branch -a 	查看当前项目git分支
-git checkout hzgaoxin 	切换到某个分支
-//提交过程
-git pull origin hzgaoxin 	拉取远端hzgaoxin分支代码到本地
-git add .  	本地代码提交到缓存库
-git commit -m 	'提交注释'
-git push origin hzgaoxin  	提交动作 把本地分支更改提交到远程hzgaoxin分支
 
 
 提测：：：
