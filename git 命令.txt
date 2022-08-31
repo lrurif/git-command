@@ -4,7 +4,7 @@
 Git rebase命令顺序：从develop-5.19分支上去获取develop分支上的最新代码
 git checkout develop
 git pull
-(可能会有冲突，需要解决)
+(可能会有冲突，需要解决)// name发斯蒂芬
 git checkout develop-5.19
 git reabse develop
 git push -f（合并之后需要强推下代码）
