@@ -73,4 +73,6 @@ git reset HEAD file 把已经放入暂存区的修改撤销掉
 1、git log查看日志，并获取那个commiit之前的提交hash值
 2、git rebase -I [hash值]
 3、修改需要去除的commit记录最前面的pick 为 drop
-4、保存，然后需要进行强推操作
+4、保存，然后需要进行强推操作 哈哈哈哈哈哈哈哈
+建家啊老师的甲方啦
+ad上课了疯狂拉进来设计费
